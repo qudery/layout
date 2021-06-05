@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    
+    margin:0 auto;
+}
+/*.logo style start here--*/
+.logo{
+    height: 100px;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
+}
+.logo h2{
+    font-size: 55px;
+    color: blue;
+    text-decoration: capitalize;
+    text-align: center;
+
+}
+/*.logo style End here--*/
+/*.navigation style Start here--*/
+.navigation{
+    height: 50px;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+
+}
+/*.navigation style End here--S*/
+/*.banner style start here--S*/
+.banner-content{
+    height: 400px;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+/*.banner style End here--S*/
+/*.sidebar and body style Start here--S*/
+.body-content{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    width: 28%;
+    height: 600px;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+        
+.body-area{
+    width: 70%;
+    height: 600px;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.sidebar and body style End here--S*/
+/*.Footer style start here--S*/
+.footer-content{
+    height: 150px;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+/*.Footer style End here--S*/
